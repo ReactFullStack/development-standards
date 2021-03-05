@@ -147,24 +147,21 @@
     ```
 
 ## 提交信息规范
-    <type>(<scope>): <subject>各个部分的说明如下：
+    <type>: <subject>各个部分的说明如下：
 - type 类型，提交的类别
-    - feat：新功能
+    - feat：新功能分支
     - add：新加功能或文件
+    - update：更新功能或文件
     - delete：删除功能或文件
     - fix：修复 bug
     - merge：合并代码
     - docs：文档变动
     - style：格式调整，对代码实际运行没有改动，例如添加空行、格式化等
-    - refactor：bug 修复和添加新功能之外的代码改动（代码重构）
+    - refactor：代码重构
     - review：代码审核
     - perf：提升性能的改动
     - test：添加或修正测试代码
     - chore：构建过程或辅助工具和库（如文档生成）的更改
-
-- scope 修改范围
-
-    主要是这次修改涉及到的部分，简单概括，例如 login、train-order
 
 - subject 修改的描述
 
@@ -172,11 +169,11 @@
     
 - 范例
 
-    feat(detail): 详情页修改样式
+    feat: 详情页修改样式
     
-    fix(login): 登录页面错误处理
+    fix: 登录页面错误处理
 
-    test(list): 列表页添加测试代码
+    test: 列表页添加测试代码
 
 ## 参考资料
 https://www.cnblogs.com/lucky-t/archive/2020/12/28/14200360.html
